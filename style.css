@@ -120,9 +120,10 @@
     height: 100px; 
   }
 
-  .row {
-    flex-direction: column;
-  }
+ .row {
+   flex-direction: column; /* Maintain column direction */
+   align-items: stretch; /* Allow full width */
+ }
 
   .selector {
     width: 100%;
